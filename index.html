@@ -1,12 +1,468 @@
 <!doctype html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CSER Book</title>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	<!-- <link href="public/bootstrap.min.css" rel="stylesheet" > -->
 	<link href="https://bootswatch.com/5/flatly/bootstrap.min.css" rel="stylesheet" >
+	<link href="public/style.css" rel="stylesheet" >
 </head>
-<body>
-	<h1>WORK IN PROGRESS </h1>
+<body >
+	<div class="d-flex h-100 text-center text-white bg-black">
+		<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column align-center justify-content-evenly main-header">
+			<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column align-center justify-content-evenly overlay">
+				<header class="mb-auto">
+					<div>
+						<!-- <nav class="nav nav-masthead justify-content-center float-md-end">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link" href="#">Features</a>
+							<a class="nav-link" href="#">Contact</a>
+						</nav> -->
+					</div>
+				</header>
+				<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column align-center justify-content-evenly">
+
+					<main class="px-3">
+						<h1 class="text-center">
+							Past, Present and Future of Computing Education Research <br/> 
+						</h1>
+						<p class="lead">A Global Perspective</p>
+					</main>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="container">
+			<br/>
+			<div class="row">
+				<div class="col-12">
+					<h2>About the book</h2>
+
+					<p>While computing has been practiced since ancient times, the record-breaking speed with which computations can be performed today has brought about whole new classes of concerns, challenges and opportunities. Our societies have become increasingly dependent on computational devices, and we have generations of people living in the middle of machine learning systems. Our reliance on technology has brought forth fundamental new questions around how the new power of fast computations can, can not, should, and should not be used. The rapid changes brought about by the megatrend of computerisation highlight the fundamental importance of computing education, and computing education research (CER). </p>
+
+					<p>History is a powerful means for understanding present-day issues by answering deeper questions as to why things are the way they are. By building a narrative of the past, it is possible to see relationships between societies and people, to build a sense of identity, a narrative of people and their networks, where communities have come from, potentially revealing where things are headed at. While the history of computing is an active area of research, the history of CER has been researched to a significantly lesser degree. This book will provide a unique contribution into this research gap by presenting a holistic, previously unseen and methodologically unique historical account about the evolution of the scientific discipline of CER. </p>
+
+					<p>This book will present a unique combination of historical overviews, meta-research and reviews, case studies, and modern scientometrics studies to show the emergence and growth of the scientific discipline of CER. Meta-analyses and reviews will delve into the evolution of research methods and theory use in publications of CER, from the early times of publishing mainly experience reports to the present day when publication venues require rigorous use of methods and theory. The historical accounts of CER will be extended with a scientometric angle in order to explore the collaboration networks, shifts in research focus, international collaboration, citation practices, reference disciplines, and foundational work. Case-studies will zoom in on specific and prolific communities of practice in CER.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<h2>Editors</h2>
+					<p><strong>Editors:</strong> 
+						<a target="_blank" href="https://scholar.google.com/citations?user=IN8KphYAAAAJ&hl=en&oi=ao"><span class="badge bg-primary">Mikko Apiola</span></a>, 
+						<a target="_blank" href="https://scholar.google.es/citations?user=67eUI4gAAAAJ&hl=eN"><span class="badge bg-primary">Sonsoles López-Pernas</span></a>, 
+						<a target="_blank" href="https://scholar.google.se/citations?user=U-O6R7YAAAAJ&hl=en"><span class="badge bg-primary">Mohammed Saqr</span></a></p>
+
+					<p><strong>Section Editors:</strong>
+					<a target="_blank" href="https://people.aalto.fi/lauri.malmi"><span class="badge bg-secondary">Lauri Malmi</span></a>, 
+					<a target="_blank" href="https://scholar.google.com/citations?user=eGOkAUMAAAAJ&hl=en"><span class="badge bg-secondary">Simon</span></a>,
+					<a target="_blank" href="https://www.kth.se/profile/pears?l=en"><span class="badge bg-secondary">Arnold Pears</span></a>, 
+					<a target="_blank" href="https://katalog.uu.se/profile/?id=XX3066"><span class="badge bg-secondary">Mats Daniels</span></a></p>
+
+			</div>
+			<br/>
+			<br/>
+			<div class="row">
+				<div class="col-12">
+					<h2>Call for contributed chapters</h2>
+					<div class="alert alert-dismissible alert-light">
+						<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+						<p><strong>Abstract submission</strong> (Optional, 1 page) <span class="badge bg-success"> February 21st, 2022</span></p>
+						<p><strong>Deadline for submissions </strong>(authors of single chapters)  <span class="badge bg-danger">April 1st, 2022</span></p>
+						<!-- <p>Deadline for submissions (authors of multiple chapters)  <span class="badge bg-warning">May 1st, 2022</span></p> -->
+						<p><strong>Notification of decisions</strong>  <span class="badge bg-info">July 1st, 2022</span></p>
+						<p><strong>Deadline for camera-ready chapters</strong>  <span class="badge bg-warning">August 24th, 2022</span></p>
+
+					</div>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-12">
+					<h2>Confirmed chapters</h2>
+					<br/>
+					<div class="accordion" id="accordionChapters">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingOne">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 1: &nbsp;</strong> <span class="title-chapter">Introduction: The Brief History of Computing Education Research</span>
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> This chapter describes the brief history and evolution of CER as a research discipline. This chapter also introduces this book and its approaches: a combination of case-studies, meta-analyses, reviews, and modern scientometrics to reveal a unique historical perspective to the evolution of CER as a research discipline. The book will answer questions about the evolution of research trends, use of research methods and theories to guide research, topical areas that have attracted research over the decades of CER, analysis of most cited and awarded work, prolific authors, author networks and communities, emergence of publication venues, citation practices, and CER in media and social media. As its data, the book uses publication metadata from all of the research published in the main outlets of publication dedicated to CER. </p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://scholar.google.com/citations?user=IN8KphYAAAAJ&hl=en&oi=ao"><span class="text-info">Mikko Apiola</span></a> (University of Turku), 
+										<a target="_blank" href="http://www.tedre.name"><span class="text-info">Matti Tedre</span></a> (University of Eastern Finland)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingTwo">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 2: &nbsp;</strong> <span class="title-chapter">What is Computing Education Research (CER)?</span>
+								</button>
+							</h2>
+							<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> This chapter presents an overview of the CER from an epistemological perspective, and defines its scope in relation to other related areas to delimit CER as a research discipline.  How has it emerged from computer science as an area of tertiary research and broadened its scope to encompass computing in schools? We discuss how the discipline of CER has been conceived and developed over time. The chapter contextualises the remaining chapters drawing on influential contributions to the international dialogue concerning the content and structure of the field. In particular the chapter looks at attempts to define the field, Marion Petre, Sally Fincher, and the developmental trajectory of the field, Simon, core literature attempts of Seidman and Pears, taxonomies and structured literature reviews. Finally, the chapter discusses how CER is related to Informatics education, Software Engineering education, ICT education, and the development of new areas of computing cybersecurity, data science, and related areas.
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://katalog.uu.se/profile/?id=XX3066"><span class="text-info">Mats Daniels</span></a> (Uppsala University),
+										<a target="_blank" href="https://www.kth.se/profile/pears?l=en"><span class="text-info">Arnold Pears</span></a> (KTH Royal Institute of Technology),
+										<a target="_blank" href="https://people.aalto.fi/lauri.malmi"><span class="text-info">Lauri Malmi</span></a> (Aalto University),
+										<a target="_blank" href="https://research.monash.edu/en/persons/judithe-sheard"><span class="text-info">Judithe Sheard</span></a> (Monash University),
+										<a target="_blank" href="https://scholar.google.com/citations?user=eGOkAUMAAAAJ&hl=en"><span class="text-info">Simon</span></a> (University of Newcastle),
+										<a target="_blank" href="https://scholar.google.com/citations?user=1T1ZThIAAAAJ&hl=en&oi=ao"><span class="text-info">Päivi Kinnunen</span></a> (Helsinki University)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingThree">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 3: &nbsp;</strong> <span class="title-chapter">Theory and Approaches to CER: Guiding Systematic Investigation of Learning? </span>
+								</button>
+							</h2>
+							<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> Computing education research studies employ a variety of methodological points of departure. This chapter synthesises and extends results from several published papers by Pears, Daniels, Berglund, Thota, Kinnunen, Malmi, Shear and Simon to provide a perspective on the role of research approach, methodology and study design to the development of systematic research in CER. The chapter provides an analysis of the understanding that can be gained from different epistemological standpoints in relation to CER with a focus on “discovery”, “integration”, and “application” of the results of CER research. The chapter positions the reader in relation to research methods, and the role of theory in CER.
+									</p> 
+									<p class="small text-end"> 
+										<a target="_blank" href="https://katalog.uu.se/profile/?id=XX3066"><span class="text-info">Mats Daniels</span></a> (Uppsala University),
+										<a target="_blank" href="https://www.kth.se/profile/pears?l=en"><span class="text-info">Arnold Pears</span></a> (KTH Royal Institute of Technology),
+										<a target="_blank" href="https://people.aalto.fi/lauri.malmi"><span class="text-info">Lauri Malmi</span></a> (Aalto University),
+										<a target="_blank" href="https://research.monash.edu/en/persons/judithe-sheard"><span class="text-info">Judithe Sheard</span></a> (Monash University),
+										<a target="_blank" href="https://scholar.google.com/citations?user=eGOkAUMAAAAJ&hl=en"><span class="text-info">Simon</span></a> (University of Newcastle),
+										<a target="_blank" href="https://scholar.google.com/citations?user=1T1ZThIAAAAJ&hl=en&oi=ao"><span class="text-info">Päivi Kinnunen</span></a> (Helsinki University)
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingFour">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 4: &nbsp;</strong> <span class="title-chapter">Scientometrics: a Methodology for Science Mapping</span>
+								</button>
+							</h2>
+							<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> Scientometrics has emerged as a research field for the evaluation and mapping of scientific fields, exploring research themes, collaboration clusters and identifying gaps and future trends. While early implementations have focused on quantitative metrics, recent directions emphasize a more nuanced approach that combines qualitative methods with quantitative analysis that triangulates several aspects, e.g., temporal trends, network and semantic analysis. This chapter reviews scientometrics as a research methodology and discusses the strengths and weaknesses and how such weaknesses can be amended. The chapter will also discuss the main methodological approach and its theoretical underpinnings used in some of the book chapters that make use of scientometrics as a means to map the field of CER.
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://scholar.google.se/citations?user=U-O6R7YAAAAJ&hl=en"><span class="text-info">Mohammed Saqr</span></a> (University of Eastern Finland),
+										<a target="_blank" href="https://scholar.google.es/citations?user=67eUI4gAAAAJ&hl=eN"><span class="text-info">Sonsoles López-Pernas</span></a> (Universidad Politécnica de Madrid)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingFive">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 5: &nbsp;</strong><span class="title-chapter">The Evolution of CER: A Meta-Analytic Perspective</span>
+								</button>
+							</h2>
+							<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> Computing Education Research has gradually built its own identity as a research field. A part of this process has been publishing a growing number of meta studies which have explored CER literature to identify the state of art and trends in terms of active research topics, the nature of publications, use of different research methods as well as use and development of theoretical frameworks in papers published in different conferences and journals.  In this chapter, we explore these meta studies to build a picture of how research in the field has developed.  We identify trends over years, as well as discuss the implications of these findings to the future of the field.
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://people.aalto.fi/lauri.malmi"><span class="text-info">Lauri Malmi</span></a> (Aalto University),
+										<a target="_blank" href="https://scholar.google.com/citations?user=eGOkAUMAAAAJ&hl=en"><span class="text-info">Simon</span></a> (University of Newcastle),
+										<a target="_blank" href="https://research.monash.edu/en/persons/judithe-sheard"><span class="text-info">Judithe Sheard</span></a> (Monash University),
+										<a target="_blank" href="https://scholar.google.com/citations?user=1T1ZThIAAAAJ&hl=en&oi=ao"><span class="text-info">Päivi Kinnunen</span></a> (Helsinki University),
+										<a target="_blank" href="https://warwick.ac.uk/fac/sci/dcs/people/jane_sinclair/"><span class="text-info">Jane Sinclair</span></a> (University of Warwick)
+
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingSix">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 6: &nbsp;</strong><span class="title-chapter"> Foundations: The Building Blocks of CER</span>
+								</button>
+							</h2>
+							<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> Previous meta-analyses and reviews (summarised in Chapter 5) show active topics, patterns and trends of research methodology and theory use in CER research. This chapter builds on previous research by adding a comprehensive scientometric analysis of publication metadata of all published CER papers in well-known dedicated publication venues of CER, as well as CER articles identified with a keywords search from other non-dedicated venues. The metadata of a total of 16453 CER publications within the timespan of 1954-2020 is analysed. The analysis focuses on most influential work and keyword trends in different decades and times of CER. Most cited papers in different decades of CER are presented. Also, a co-citation analysis shows a network of around 100 most co-cited papers, which can be considered to be the foundational and most influential work in CER. 
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://scholar.google.com/citations?user=IN8KphYAAAAJ&hl=en&oi=ao"><span class="text-info">Mikko Apiola</span></a> (University of Turku), 
+										<a target="_blank" href="https://scholar.google.es/citations?user=67eUI4gAAAAJ&hl=eN"><span class="text-info">Sonsoles López-Pernas</span></a> (Universidad Politécnica de Madrid),
+										<a target="_blank" href="https://scholar.google.se/citations?user=U-O6R7YAAAAJ&hl=en"><span class="text-info">Mohammed Saqr</span></a> (University of Eastern Finland),
+										<a target="_blank" href="http://www.tedre.name"><span class="text-info">Matti Tedre</span></a>(University of Eastern Finland)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingSeven">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 7: &nbsp;</strong> <span class="title-chapter"> The Hands that Made CER: Authors and Communities </span>
+								</button>
+							</h2>
+							<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> A scientific discipline is built by people and their networks and communities. This chapter analyses the influential authors, author networks, and researcher communities of CER. A comprehensive metadata of CER publications over the timespan 1954-2020 is analysed by using scientometrics. The influential authors within different key thematic areas of CER, and foundational authors of different times of CER are identified. Author networks are analysed with network analysis for detecting clusters of collaboration and co-authorship. The results show influential communities of CER and differences in their publication practices, topics, trends, and themes of research around the world. 
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://scholar.google.com/citations?user=IN8KphYAAAAJ&hl=en&oi=ao"><span class="text-info">Mikko Apiola</span></a> (University of Turku), 
+										<a target="_blank" href="https://scholar.google.es/citations?user=67eUI4gAAAAJ&hl=eN"><span class="text-info">Sonsoles López-Pernas</span></a> (Universidad Politécnica de Madrid),
+										<a target="_blank" href="https://scholar.google.se/citations?user=U-O6R7YAAAAJ&hl=en"><span class="text-info">Mohammed Saqr</span></a> (University of Eastern Finland),
+										<a target="_blank" href="http://www.tedre.name"><span class="text-info">Matti Tedre</span></a> (University of Eastern Finland)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingEight">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 8: &nbsp;</strong> <span class="title-chapter">The Dissemination of CER </span>
+								</button>
+							</h2>
+							<div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> This chapter explores the birth and evolution of the most well-known publication venues of CER with regards to publication profiles and citation practices. The data includes all publication metadata from two well-known journals: ACM Transactions on Computing Education and Computer Science Education, as well as the major conferences that are exclusively dedicated to publishing CER: SIGCSE, ITiCSE, Koli Calling, ICER, CompED, WPCSE, ISSEP and ACE. This chapter builds on findings from a number of previous meta-analyses of CER venues, which have shown evolution of CER from experience reports to rigorous research, birth of vibrant and lively communities of practice in conventions and conferences. Scientometric analysis of CER publication metadata reveals variations in citation practices and profiles, statistically significant differences between citations to CER journals and conferences, and alarmingly low internal citation rates and large numbers of uncited papers in some cases. Differences in publication profiles, acceptance rates, citation practices, and reference disciplines between central CER venues are shown. Comparison statistics to key STEM education research and mathematics education research venues are also presented. The reader will gain a unique picture about the evolution of publication profiles of central CER venues, and practical know-how about where to publish. 
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="http://www.tedre.name"><span class="text-info">Matti Tedre</span></a> (University of Eastern Finland),
+										<a target="_blank" href="https://scholar.google.com/citations?user=IN8KphYAAAAJ&hl=en&oi=ao"><span class="text-info">Mikko Apiola</span></a> (University of Turku), 
+										<a target="_blank" href="https://scholar.google.se/citations?user=U-O6R7YAAAAJ&hl=en"><span class="text-info">Mohammed Saqr</span></a> (University of Eastern Finland),
+										<a target="_blank" href="https://scholar.google.es/citations?user=67eUI4gAAAAJ&hl=eN"><span class="text-info">Sonsoles López-Pernas</span></a> (Universidad Politécnica de Madrid),
+										<a target="_blank" href="https://scholar.google.com/citations?user=eGOkAUMAAAAJ&hl=en"><span class="text-info">Simon</span></a> (University of Newcastle),
+										<a target="_blank" href="https://www.mii.lt/en/structure/staff/408-dagiene-valentina-en-gb"><span class="text-info">Valentina Dagienė</span></a> (Vilnius University)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingNine">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 9: &nbsp;</strong> <span class="title-chapter">The International CER Movement </span>
+								</button>
+							</h2>
+							<div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> This chapter uses scientometrics to analyse the metadata of CER publications with regard to the internationalisation and international collaboration. The analysis reveals shifting publication profiles from local international gatherings to internationally acknowledged publication venues over time. The results also show that most CER research is still written by authors from a single country, but that there is a significant increase in the overall number of international co-publications. The analysis also reveals geographical distribution of CER research, and clusters of countries that frequently co-publish in CER venues. The results also show the most active countries in different venues, and, in the case of USA-originated research, the distribution of publications between top contributing institutions and US states. The results show dominance of a few high-income countries, especially the USA, as contributors to CER. Various geographical locations are underrepresented, such as the Global South. For example, contributions from Africa, a home to 1.2 billion people, are rarely published in the central venues of CER. 
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="http://www.tedre.name"><span class="text-info">Matti Tedre</span></a>(University of Eastern Finland),
+										<a target="_blank" href="https://scholar.google.com/citations?user=IN8KphYAAAAJ&hl=en&oi=ao"><span class="text-info">Mikko Apiola</span></a> (University of Turku), 
+										<a target="_blank" href="https://scholar.google.es/citations?user=67eUI4gAAAAJ&hl=eN"><span class="text-info">Sonsoles López-Pernas</span></a> (Universidad Politécnica de Madrid),
+										<a target="_blank" href="https://katalog.uu.se/profile/?id=XX3066"><span class="text-info">Mats Daniels</span></a> (Uppsala University),
+										<a target="_blank" href="https://scholar.google.se/citations?user=U-O6R7YAAAAJ&hl=en"><span class="text-info">Mohammed Saqr</span></a> (University of Eastern Finland),
+										<a target="_blank" href="https://www.kth.se/profile/pears?l=en"><span class="text-info">Arnold Pears</span></a> (KTH Royal Institute of Technology),
+										<a target="_blank" href="https://people.aalto.fi/lauri.malmi"><span class="text-info">Lauri Malmi</span></a> (Aalto University),
+										<a target="_blank" href="https://scholar.google.com/citations?user=eGOkAUMAAAAJ&hl=en"><span class="text-info">Simon</span></a> (University of Newcastle)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingTen">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 10: &nbsp;</strong> <span class="title-chapter">CER Impact Beyond Academia: The Case of Altmetrics </span>
+								</button>
+							</h2>
+							<div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> Research impact goes beyond academia and exists in the multiplicity of digital platforms that we use to read, share and discuss knowledge. CER is no exception, it is created in academia, and typical research institutions but is talked about widely on social media, blogs and news websites. Therefore, the aim of this study is to have a comprehensive look at how research in CER has been received, talked about in social media, discussed on blogs, and penetrated to the news and media. In addition to common analysis of trends of growth, we analyse trends of usage of social media and quantitative analysis of platforms, articles, and venues. The analysis will also include which articles in which subfields had a wide impact, and for whom (i.e, which platforms had more impact). Furthermore, such analysis will include the themes of research that have garnered more attention from social media users, and what types of users are engaged in the discussion. More importantly, a semantic analysis shows the attitude towards such articles, and the polarity of opinion. The results help to understand which themes of research are likely to be well-received or which may be negatively received by the general public. Such results will be discussed with an in-depth qualitative analysis that reflects on the value and importance of the findings.
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://scholar.google.se/citations?user=U-O6R7YAAAAJ&hl=en"><span class="text-info">Mohammed Saqr</span></a> (University of Eastern Finland),
+										<a target="_blank" href="https://scholar.google.es/citations?user=67eUI4gAAAAJ&hl=eN"><span class="text-info">Sonsoles López-Pernas</span></a> (Universidad Politécnica de Madrid),
+										<a target="_blank" href="http://www.tedre.name"><span class="text-info">Matti Tedre</span></a> (University of Eastern Finland),
+										<a target="_blank" href="https://scholar.google.com/citations?user=IN8KphYAAAAJ&hl=en&oi=ao"><span class="text-info">Mikko Apiola</span></a> (University of Turku),
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingEleven">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 11: &nbsp;</strong> <span class="title-chapter">CER in the Global South: A Scientometric Perspective</span>
+								</button>
+							</h2>
+							<div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> Scientometric analysis of publication data from all major computing education research (CER) outlets shows that many countries and whole continents are greatly underrepresented on the global map of contributions to CER. For example, only a minor portion of CER has originated from countries in the Global South or has addressed challenges of computing education in the Global South. In this chapter, we shift the focus to scientometrically analyse CER papers that originate from countries in the Global South. From the metadata of all CER publications in central publication outlets of CER, we have selected a subset of articles whose first author affiliation belongs to a Global South country, as defined by the UN. The analysis shows publication trends, communities, and research themes. While many institutions in the Global South have launched computing training curricula to address major shortages in the skilled technology workforce, a number of unique challenges complicate effective implementation, while research to understand and address those challenges is significantly low in number. The analysis shows that there is a need to reflect how the CER community can better serve the needs of computing education for all, everywhere, and not just in a few high-income countries. A number of crucial and interesting avenues for future research and collaboration are presented. 
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://www.unam.edu.na/staff/maria-ndapewa-ntinda"><span class="text-info">Maria Ntinda</span></a> (University of Turku),
+										<a target="_blank" href="https://scholar.google.com/citations?user=IN8KphYAAAAJ&hl=en&oi=ao"><span class="text-info">Mikko Apiola</span></a> (University of Turku),
+										<a target="_blank" href="https://scholar.google.se/citations?user=U-O6R7YAAAAJ&hl=en"><span class="text-info">Mohammed Saqr</span></a> (University of Eastern Finland),
+										<a target="_blank" href="https://scholar.google.es/citations?user=67eUI4gAAAAJ&hl=eN"><span class="text-info">Sonsoles López-Pernas</span></a> (Universidad Politécnica de Madrid)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingTwelve">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 12: &nbsp;</strong> <span class="title-chapter">Reforming Computing Curriculum in Namibia: A Case Study</span>
+								</button>
+							</h2>
+							<div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+
+									<p> The graduates in Computing need to have competences that they can apply in their working places or when setting up their own startups. At the same time, a university degree should be strong enough to equip them with a deep foundation on which they can learn more and be established and knowledgeable professionals. The degree also needs to prepare the students for their further academic studies, in Namibia or out of the country. Along with their technical, professional and academic studies, they need to grow towards their genuine and original selves: innovative, inventive and imaginative human beings. Everything that they learn needs to be at the international level and future-oriented. The 21st century needs Computing professionals that are creative, critical, collaborative and communicative. This chapter presents a case study about computing curriculum development and reform efforts at the University of Namibia (UNAM).
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://www.unam.edu.na/staff/maria-ndapewa-ntinda"><span class="text-info">Maria Ntinda</span></a> (University of Turku),
+										<a target="_blank" href="https://www.unam.edu.na/staff/helena-nahum"><span class="text-info">Helena Nahum</span></a> (University of Turku),
+										<a target="_blank" href="https://ftlab.utu.fi/node/14"><span class="text-info">Erkki Sutinen</span></a> (University of Turku)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingThirteen">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 13: &nbsp;</strong> <span class="title-chapter">A Case Study: The Uppsala Computing Education Research Group (UpCERG)</span>
+								</button>
+							</h2>
+							<div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> Computing Education Research (CER) is a branch of Discipline Based Education Research (DBER) and is a relatively young research area. The Uppsala Computing Education Research Group (UpCERG) can serve as an example of how this area has evolved from when the group was started in the mid-90's till today, when CER is an established research area at Uppsala University with an own research program and full professors. The case involves searching for and building a community, formulating frameworks for conducting CER, finding and including methods, theories and people from other disciplines, as well as developing relevant research questions for CER. The people in UpCERG represent a wide area of research interests and the case represents to a large extent the development of CER in general. The chapter will relate the UpCERG evolution to the CER field in general. 
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://katalog.uu.se/profile/?id=XX3066"><span class="text-info">Mats Daniels</span></a> (Uppsala University),
+										<a target="_blank" href="https://www.kth.se/profile/pears?l=en"><span class="text-info">Arnold Pears</span></a> (KTH Royal Institute of Technology),
+										<a target="_blank" href="https://katalog.uu.se/profile/?id=XX3048"><span class="text-info">Anders Berglund</span></a> (Uppsala University)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingFourteen">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 14: &nbsp;</strong> <span class="title-chapter">CER in Lithuania and Estonia</span>
+								</button>
+							</h2>
+							<div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen" data-bs-parent="#accordionChapters">
+								<div class="accordion-body"> 
+									<p> Two baltic countries, Estonia and Lithuania, have a long history of teaching computing at all levels, from preschool to doctoral studies. Research on computing education has been an active area in Lithuania, which is demonstrated by the establishment of the international research journal Informatics in Education by Vilnius University over 20 years ago. Informatics in Education is an internationally recognised and respected forum for presenting the latest research and developments in the fields of computing and informatics education. Another Lithuanian contribution to CER is the Doctoral Consortium on CER in schools, running for more than 10 years now, as well as the Bebras Challenge, a competition on Informatics and Computational Thinking, attracting massive numbers of school children to learn computing, and providing an ecosystem for CER. Hundreds of publications have been written around research on Bebras. Although computing education in Estonia and Lithuania was quite similar when the Soviet Union collapsed in 1991, subsequently the paths of these two countries departed significantly. Despite the low status of computer science as an elective subject in Estonian schools, successful tertiary education in IT has allowed Estonia to become a leading country in digitalisation. A strong foundation to computing education on tertiary level has been laid by high quality mathematics and science education in schools. In 2018, Estonia ranked number one in Europe in all three domains of assessment in PISA: Reading, Science, and Mathematics. Estonia has become, over a short period of time, one of the most developed e-societies, and Estonia has developed a comprehensive curriculum for computing education in schools, as part of ongoing CER. In this chapter, we present the development trajectories of CER in Lithuania and Estonia, discuss key milestones, achievements, similarities and differences.
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://www.mii.lt/en/structure/staff/408-dagiene-valentina-en-gb"><span class="text-info">Valentina Dagienė</span></a> (Vilnius University),
+										<a target="_blank" href="https://www.etis.ee/CV/Mart_Laanpere/eng"><span class="text-info">Mart Laanpere</span></a> (University of Tallinn),
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingFifteen">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 15: &nbsp;</strong> <span class="title-chapter">CER in Finland</span>
+								</button>
+							</h2>
+							<div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> Despite being a small country, Finland has had a strong international visibility in Computing Education Research.  This is demonstrated by the presence of several important research groups, dozens of graduated PhDs in CER and the success of the Koli Calling International Conference of Computing Education Research, which has been running for 20 years now.  In this chapter, we present the development of CER research in Finland and discuss the factors behind this phenomenon by analyzing the working practices and profiles of various research groups, as well as several national level networking activities which have supported the field.
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://people.aalto.fi/lauri.malmi"><span class="text-info">Lauri Malmi</span></a> (Aalto University), 
+										<a target="_blank" href="https://scholar.google.fi/citations?user=t2jierQAAAAJ&hl=en"><span class="text-info">Tapio Salakoski</span></a> (University of Turku), 
+										<a target="_blank" href="https://www.utu.fi/en/people/mikko-jussi-laakso"><span class="text-info">Mikko-Jussi Laakso</span></a> (University of Turku), 
+										<a target="_blank" href="https://scholar.google.fi/citations?user=msHyuXsAAAAJ&hl=en "><span class="text-info">Arto Hellas</span></a> (Aalto University), 
+										<a target="_blank" href="https://research.lut.fi/converis/portal/detail/Person/40268?auxfun=&lang=en_GB"><span class="text-info">Antti Knutas</span></a> (Lappeenranta University of Technology), 
+										<a target="_blank" href="https://scholar.google.fi/citations?user=FdYLVNUAAAAJ&hl=fi"><span class="text-info">Ville Isomöttönen</span></a> (University of Jyväskylä), 
+										<a target="_blank" href="https://scholar.google.com/citations?user=gwFUQ4QAAAAJ&hl=en"><span class="text-info">Jarkko Suhonen</span></a> (University of Eastern Finland), 
+										<a target="_blank" href="https://uefconnect.uef.fi/en/person/ilkka.jormanainen/"><span class="text-info">Ilkka Jormanainen</span></a> (University of Eastern Finland), 
+										<a target="_blank" href="https://people.aalto.fi/ari.korhonen"><span class="text-info">Ari Korhonen</span></a> (Aalto University),
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingSixteen">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 16: &nbsp;</strong> <span class="title-chapter">CER in Australasia</span>
+								</button>
+							</h2>
+							<div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> The first Australasian computing education conference was held in 1996. Australasian authors had presented papers at SIGCSE, but a local conference gave them a far more affordable option, and it flourished. Australasia has also been well represented at both ITiCSE and ICER since their inceptions. Other Australasian innovations in CER include the conventicles, local meetings at which the computing educators in a city could meet and share papers that they had presented at conferences further afield. This chapter will summarise the history and growth of computing education publication, and subsequently of computing education research, in Australia and New Zealand.
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://scholar.google.com/citations?user=eGOkAUMAAAAJ&hl=en"><span class="text-info">Simon</span></a> (University of Newcastle),
+										<a target="_blank" href="https://research.monash.edu/en/persons/judithe-sheard"><span class="text-info">Judithe Sheard</span></a> (Monash University),
+										<a target="_blank" href="https://www.adelaide.edu.au/directory/claudia.szabo"><span class="text-info">Claudia Szabo</span></a> (University of Adelaide),
+										<a target="_blank" href="https://scholar.google.com/citations?user=3nuHa7IAAAAJ&hl=en"><span class="text-info">Andrew Luxton-Reilly</span></a> (University of Auckland)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingSeventeen">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 17: &nbsp;</strong> CER in Schools
+								</button>
+							</h2>
+							<div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p> One of the most researched domains of CER is computing education in schools (K-12). A high number of initiatives and related research contributions have appeared over the years. This chapter presents an overview of CER research in the K-12 domain, including influential movements such as that of computational thinking. A number of previous reviews on CT and K-12 paint a diverse picture of the approaches, educational technologies, pedagogical innovations, and related challenges such as lack of teacher training. This article presents a scientometric overview of CER research in the K-12 domain. The analysis identifies prolific authors, central educational technologies used, and foundational articles. While much of the research is centered around USA, key research from other parts of the globe are also highlighted. Emergence of new trends such as teaching machine learning in schools are discussed.
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://www.mii.lt/en/structure/staff/408-dagiene-valentina-en-gb"><span class="text-info">Valentina Dagienė</span></a> (Vilnius University),
+										<span class="text-info">Yasemin Gulbahar</span> (Ankara University),
+										<a target="_blank" href="https://www.rug.nl/staff/n.grgurina/"><span class="text-info">Natasa Grugurina</span></a> (University of Groningen),
+										<a target="_blank" href="https://scholar.google.es/citations?user=67eUI4gAAAAJ&hl=eN"><span class="text-info">Sonsoles López-Pernas</span></a> (Universidad Politécnica de Madrid)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingEighteen">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 18: &nbsp;</strong> <span class="title-chapter">Cutting Edge Computing and Life-long Learning</span>
+								</button>
+							</h2>
+							<div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p>Cutting edge competency in digitalisation and the development of future technological systems and solutions is vital to the sustainable development of a high-technology society. Digital excellence allows citizens to navigate future digital systems, empowering them with the agency and ability to consume and create digital content. Becky Frankiewicz and Tomas Chamorro-Premuzic, both of Manpower Group, emphasise this when they conclude that digital transformation is less about technology and more about people, and the importance of focus on soft rather than hard skills. Focus on equipping citizens for a technological world future is one thing, however, developing the national and global competence needed to fuel worldwide transformation has received limited attention.  Despite a long-standing discussion of digital excellence the term has no existing agreed upon definition. We propose a definition of digital excellence based on analyses of relevant underlying components and assessing the profiles and roles of those working in positions requiring such competence. The definition of digital excellence builds upon a comprehensive review of the international research literature, European policy documents, and semi-structured interviews with industry leaders. The definition that emerges has been reviewed and refined in workshops with representatives from government agencies and the private sector in Sweden. Educational implications in the context of compulsory school, university, and life-long learning are discussed.
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://www.kth.se/profile/pears?l=en"><span class="text-info">Arnold Pears</span></a> (KTH Royal Institute of Technology)
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingNineteen">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+									<strong>Ch<span class="d-none d-md-inline">apter</span> 19: &nbsp;</strong> <span class="title-chapter">The Past, Present, And Future of Computing Education Research: A Summary</span> 
+								</button>
+							</h2>
+							<div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen" data-bs-parent="#accordionChapters">
+								<div class="accordion-body">
+									<p>This chapter summarises the book findings and discusses ideas for the future. What insights have the analytics of communities and networks, keyword trends, historical narratives, meta-analyses of research methods and theory use, citation practices, evolution of central venues brought about? What are the strong and weak sides of scientometrics as a research method in CER? How can insights from scientometrics, meta-analyses, and case-studies complement each other? What are the under researched areas in CER? How is CER as a discipline positioned as compared to mathematics and science education? The chapter concludes with a discussion on what should future research agendas include, and how will this help to empower the field and learners? 
+									</p>
+									<p class="small text-end"> 
+										<a target="_blank" href="https://www.kth.se/profile/pears?l=en"><span class="text-info">Arnold Pears</span></a> (KTH Royal Institute of Technology),
+										<a target="_blank" href="https://katalog.uu.se/profile/?id=XX3066"><span class="text-info">Mats Daniels</span></a> (Uppsala University),
+										<a target="_blank" href="https://people.aalto.fi/lauri.malmi"><span class="text-info">Lauri Malmi</span></a> (Aalto University),
+										<a target="_blank" href="https://scholar.google.com/citations?user=IN8KphYAAAAJ&hl=en&oi=ao"><span class="text-info">Mikko Apiola</span></a> (University of Turku)
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br/>
+		</div>
+		<div>
+			<footer>
+				<br/>
+			</footer>
+		</div>
+	</div>
 </body>
 </html>

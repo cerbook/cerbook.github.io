@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+}
+
+#accordionChapters .accordion-button strong {
+	white-space: nowrap;
+}
+
+#accordionChapters .accordion-button .title-chapter{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.main-header {
+	background-image: url("keyword-clusters.jpg");
+	background-position: 50% 50%;
+	padding: 0 !important;
+	background-size: 120%;
+	background-color: var(--bs-gray);
+	background-blend-mode: luminosity;
+}
+
+
+.main-header .overlay {
+	background-color: rgba(255,255,255,0.3);
+}
+
+.main-header .px-3 {
+	width: auto;
+	margin: auto;
+}
+.main-header .px-3 * {
+	display: inline;
+	width:auto;
+	margin:auto;
+	padding: 0.4em 0.6em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	line-height: 2.3em;
+}
+
+.main-header .px-3 h1 {
+	background-color: var(--bs-danger);
+	color: white;
+	font-size:2.5em;
+}
+
+.main-header .px-3 p {
+	background-color: white;
+	color: black;
+	font-size:1.5em;
+
+}
+
+.alert p {
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+	.h2, h2 {
+	    font-size: 1.9rem;
+	}
+}
+
+.h2, h2 {
+    font-size: calc(0.9rem + 1.5vw);
+}
