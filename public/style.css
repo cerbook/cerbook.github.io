@@ -66,3 +66,8 @@ html, body {
 .h2, h2 {
     font-size: calc(0.9rem + 1.5vw);
 }
+@media (min-width: 900px) {
+	.small {
+		padding-left: 20%;
+	}
+}
